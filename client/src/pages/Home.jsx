@@ -34,7 +34,7 @@ const Home = () => {
           <div className="p-2">
             <h3>{user.name}</h3>
             <div className="d-flex justify-content-between align-items-center">
-              <Link to={`/edit/`+user._id} style={{ textDecoration: "none" }}>
+              <Link to={`/edit/${user._id}`} style={{ textDecoration: "none" }}>
                 Edit
               </Link>
               <button
